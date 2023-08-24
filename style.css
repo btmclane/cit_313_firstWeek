@@ -1,0 +1,33 @@
+
+
+nav {
+    position: relative;
+    width: 30%;
+    height: 100vh;
+    border: 1px;
+    padding: 5px;
+    background-color: navy;
+    display: flex;
+    flex-direction:  row;
+    box-shadow: 5px 3px 25px -8px rgba(0,0,0,0.75);
+  }
+
+  .nav{
+    position: relative;
+    left: 37%;
+    text-decoration: none;
+    color: #dc3545;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+}
+
+  @media screen and (min-width: 700px) {
+    nav {
+      position: static;
+      height: auto;
+      transform: translateY(0);
+      width: 100%;
+    }
+  }
